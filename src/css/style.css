@@ -1,0 +1,61 @@
+body {
+    color: #999;
+}
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    background-color: grey ;
+    display: block;
+    flex-wrap: wrap;
+    width: 400px;
+    min-height: 600px;
+    margin: auto;
+    padding: 50px 12px;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.widget{
+    background-color: white;
+    padding: 75px 25px;
+}
+.widget:first-child{
+    margin-top: 0;
+}
+.widget:nth-child(n+1){
+    margin-top: 25px;
+}
+.h-text{
+    margin: 5px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+.h1-text{
+    font-size: 20px;
+    text-align: center;
+}
+.field{
+    max-width: 100%;
+    max-height: 20px;
+    min-width: 100%;
+    min-height: 20px;
+    font-size: 20px;
+}
+.task{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 12px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.hidden{
+    display: none;
+}
+
+
