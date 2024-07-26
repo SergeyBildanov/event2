@@ -1,8 +1,8 @@
 export function filterBy(contacts, filterCallback) {
-    return contacts.filter(filterCallback);
+  return contacts.filter(filterCallback);
 }
 
 export function containsText(data, search) {
-    const clean = search.trim().toLowerCase();
-    return data.toLowerCase().includes(clean);
+  const clean = search.trim().toLowerCase();
+  return data.toLowerCase().includes(clean);
 }
